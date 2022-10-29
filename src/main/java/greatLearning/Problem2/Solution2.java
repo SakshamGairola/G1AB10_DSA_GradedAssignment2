@@ -5,6 +5,7 @@ public class Solution2 {
 
     public Solution2() {
         int[] data = {15, 10, 5, 20, 25, 17, 12};
+        //int[] data = {2, 1, 3};
         Node root = null;
         Tree tree = new Tree();
 
@@ -13,12 +14,10 @@ public class Solution2 {
 
 
         //modifies the tree
+        root = tree.modifyTree(root);
 
-        //tree.modifyTree(root);
-        tree.some(root);
-
-        //tree.printTree(root);
-
+        //prints the tree
+        tree.printTree(root);
 
     }
 }
