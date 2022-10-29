@@ -5,47 +5,6 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Solution1 {
-
-    /*stack.add(4);
-        stack.add(3);
-        stack.add(1);
-        stack.add(2);
-        stack.add(5);
-
-        Scanner sc = new Scanner(System.in);
-
-        for (int i : stack){
-            System.out.print(i + " ");
-        }
-        System.out.println();
-//        int arg = sc.nextInt();
-//        System.out.println(stack.indexOf(arg));
-//
-//        arg = sc.nextInt();
-//        System.out.println(stack.get(stack.indexOf(arg)));
-//
-//        arg = sc.nextInt();
-//        System.out.println(stack.contains(arg));
-
-        int arg = sc.nextInt();
-        System.out.println(stack.remove(stack.indexOf(arg)));
-
-        for (int i : stack){
-            System.out.print(i + " ");
-        }
-
-
-
-        //methods to use
-        /*
-        * linkLast
-        * contains
-        * remove(@index)
-        * size
-        * get(@index)
-        * indexOf  >
-        * */
-    //Deque<Integer> stack = new LinkedList<Integer>();
     LinkedList<Integer> stack = new LinkedList<Integer>();
     ArrayList<Integer> deliveredFloors = new ArrayList<Integer>();
 
